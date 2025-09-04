@@ -24,7 +24,6 @@ public class BankAccount {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-
     public void calculateInterest() {
         System.out.println("Generic Bank Interest Calculation...");
     }

@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="Overriding"/>
 	<classpathentry kind="src" path="OverLaoding"/>
 	<classpathentry kind="src" path="WrapperClass"/>
+	<classpathentry kind="src" path="UPCASTING"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
