@@ -40,9 +40,7 @@ public class PolymorphicOnObject {
         System.out.println("4. Generic Payment");
         System.out.print("Enter choice: ");
         int choice = sc.nextInt();
-
-        // Switch with arrow syntax (Java 14+)
-        Payment p = switch (choice) {
+        	Payment p = switch (choice) {
             case 1 -> new UPI();
             case 2 -> new DebitCard();
             case 3 -> new CreditCard();
